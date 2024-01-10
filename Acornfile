@@ -1,0 +1,54 @@
+containers: {
+    "plausible": {
+        image: "plausible/analytics:v2.0"
+        ports: publish: "8000/http"
+        cmd: "sh -c \"sleep 10 && /entrypoint.sh db createdb && /entrypoint.sh db migrate && /entrypoint.sh run\""
+        env: {
+            BASE_URL: "@{services.plausible.endpoint}"
+            SECRET_KEY_BASE: "Ema/s1028nl3nm7m1u7E+vJK6vAyCcgVU+HN9mo6QaEr8J1Ib1qrBf62cZn+yitHYnAjswplNimSVaz9FnSrYQ=="
+            DATABASE_URL: "postgres://postgres:sushshsbzbgdhsish6372@plausibledb:5432/plausible_db"
+            CLICKHOUSE_DATABASE_URL: "http://plausibleeventsdb:8123/plausible_events_db"
+        }
+        dependsOn: ["plausibledb", "plausibleeventsdb", "mail"]
+    }
+
+    "plausibledb": {
+        image: "postgres:14-alpine"
+        ports: {
+            expose: "5432/tcp"
+        }
+        dirs: {
+            "/var/lib/postgresql/data": "postgresdata"
+        }
+        env: {
+            POSTGRES_PASSWORD: "sushshsbzbgdhsish6372"
+        }
+    }
+
+    "plausibleeventsdb": {
+        image: "clickhouse/clickhouse-server:23.3.7.5-alpine"
+        ports: {
+            expose: ["8123/tcp", "9000/tcp"]
+        }
+        dirs: {
+            "/var/lib/clickhouse": "eventdata"
+        }
+    }
+
+    "mail": {
+        image: "bytemark/smtp"
+        ports: {
+            expose: "25/tcp"
+        }
+    }
+}
+
+volumes: eventdata: {
+    size: "1Gi"
+    accessModes: "readWriteOnce"
+}
+
+volumes: postgresdata: {
+    size: "1Gi"
+    accessModes: "readWriteOnce"
+}
