@@ -36,8 +36,6 @@ Back in our local command terminal login to acorn.io with: <br>
 `acorn login acorn.io` 
 
 ## Deploying Acorn
-Now that we have the acorn cli configured, we can deploy our acorn image with a few clicks.
-
 [CLICK HERE](https://acorn.io/run/ghcr.io/randall-coding/acorn/plausible?ref=randall-coding) to deploy the acorn from a pre-made image and then click "Deploy".
 
 Once the server deploys, click on the plausible deployment ui, and find the endpoint section on the right side panel.  This is your plausible instance link.
