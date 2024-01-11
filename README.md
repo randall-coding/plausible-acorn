@@ -52,15 +52,16 @@ Visit your acorn dashboard to see if your deployment was successful.
 
 Click on the plausible deployment, and find the endpoint section on the right side panel.  This is your plausible instance link.
 
-![plausible_acorn_ui]()
+![plausible_acorn_ui](https://github.com/randall-coding/plausible-acorn/assets/39175191/57c5e3b5-0eb0-434c-ae5b-63b1e7bfdc09)
 
-![plausible_endpoint]()
+![plausible_endpoint](https://github.com/randall-coding/plausible-acorn/assets/39175191/8e68db74-40db-464a-a817-a399491626d8)
 
 ## Configure Plausible
 
 Go to your acorn plausible URL. Then you'll be prompt to create your analytics account. Enter necessary information and click "Create my account".
 
 !!create account
+
 
 Then you'll be asked to enter your website URL and your timezone. Fill out those and you'll have the snippet to place that in your website.
 
