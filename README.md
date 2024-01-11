@@ -72,7 +72,7 @@ Add the js snippet to your website (that part is up to you) and click "Start col
 
 After completing all the steps, you'll see the dashboard of plausible with a list of the websites you are monitoring.
 
-<img width="681" alt="295515281-943ccc20-8e5a-429b-ab2a-02dfab536d6e" src="https://github.com/randall-coding/plausible-acorn/assets/39175191/cd3c8c86-e389-4463-9924-8c584f00681e">
+<img width="681" alt="295795819-79d35b4f-03fd-48e1-b83b-851f4dabdfb6" src="https://github.com/randall-coding/plausible-acorn/assets/39175191/4add912f-68b9-4e5a-90bf-84cc4df2b820">
 
 ## Conclusion
 That's all there is to it.  You now have a Plausible server up and running from an acorn image.
