@@ -64,7 +64,7 @@ Go to your acorn plausible URL. You'll then be prompted to create your analytics
 
 Next you'll be asked to enter your website URL and your timezone. Fill out those and you'll be given a snippet to place into your target website.
 
-<img width="535" alt="295517077-f69c501e-3c6e-460b-b610-a63a2325fefa" src="https://github.com/randall-coding/plausible-acorn/assets/39175191/290ac8a3-3b50-41ca-aa1f-6b850f42a998">
+<img width="535" alt="295517077-f69c501e-3c6e-460b-b610-a63a2325fefa" src="https://github.com/randall-coding/plausible-acorn/assets/39175191/1260f34b-acd8-4bd6-a7c3-27e096fad19a">
 
 Add the js snippet to your website (that part is up to you) and click "Start collecting data".
 
