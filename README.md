@@ -58,28 +58,24 @@ Click on the plausible deployment, and find the endpoint section on the right si
 
 ## Configure Plausible
 
-Go to your acorn plausible URL. Then you'll be prompt to create your analytics account. Enter necessary information and click "Create my account".
+Go to your acorn plausible URL. You'll then be prompted to create your analytics account. Enter the necessary information and click "Create my account".
 
-!!create account
+<img width="541" alt="295516910-017d3458-926c-4c29-89ff-ae0343c046e0" src="https://github.com/randall-coding/plausible-acorn/assets/39175191/858d11b6-7149-403a-b2d7-6dfa6ab6f692">
 
+Next you'll be asked to enter your website URL and your timezone. Fill out those and you'll be given a snippet to place into your target website.
 
-Then you'll be asked to enter your website URL and your timezone. Fill out those and you'll have the snippet to place that in your website.
+<img width="535" alt="295517077-f69c501e-3c6e-460b-b610-a63a2325fefa" src="https://github.com/randall-coding/plausible-acorn/assets/39175191/290ac8a3-3b50-41ca-aa1f-6b850f42a998">
 
-!! domain form
+Add the js snippet to your website (that part is up to you) and click "Start collecting data".
 
-Add the js snippet to your website.
+<img width="576" alt="295517181-002eb3fd-11eb-4990-ad5f-626abde91768" src="https://github.com/randall-coding/plausible-acorn/assets/39175191/2cf551b9-7fcc-4dfa-8c9c-8ab73b6f583a">
 
-!! js snippet
+After completing all the steps, you'll see the dashboard of plausible with a list of the websites you are monitoring.
 
-After completing all the steps, you'll see the dashboard of plausible where it's waiting for new analytics.
-
-!! dashboard
-
-
-Congratulations! The Plausible installation is now complete.
+<img width="681" alt="295515281-943ccc20-8e5a-429b-ab2a-02dfab536d6e" src="https://github.com/randall-coding/plausible-acorn/assets/39175191/cd3c8c86-e389-4463-9924-8c584f00681e">
 
 ## Conclusion
-That's all there is to it.  We've now got a Plausible server up and running from an acorn image.
+That's all there is to it.  You now have a Plausible server up and running from an acorn image.
 For more detailed instructions on working with your Plausible server see the getting started and configuration documentation.
 
 ## References
